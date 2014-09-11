@@ -1,0 +1,38 @@
+{
+  "name": "node-alert",
+  "version": "0.1.0",
+  "description": "A Node.js library to send alerts through various channels (mail, IRC, push services) ",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shrikrishnaholla/node-alert.git"
+  },
+  "keywords": [
+    "crash-alert",
+    "crash",
+    "alert",
+    "notification",
+    "alarm"
+  ],
+  "author": "Shrikrishna Holla <shrikrishna.holla@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shrikrishnaholla/node-alert/issues"
+  },
+  "homepage": "https://github.com/shrikrishnaholla/node-alert",
+  "dependencies": {
+    "broadway": "^0.2.10",
+    "deasync": "0.0.7",
+    "debug": "^2.0.0",
+    "lazy-require": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
