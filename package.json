@@ -28,7 +28,7 @@
   "homepage": "https://github.com/shrikrishnaholla/node-alert",
   "dependencies": {
     "broadway": "^0.2.10",
-    "deasync": "0.0.7",
+    "deasync": "0.0.10",
     "debug": "^2.0.0",
     "lazy-require": "^1.0.0"
   },
